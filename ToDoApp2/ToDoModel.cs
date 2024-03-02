@@ -15,13 +15,15 @@ namespace ToDoApp2
                 id: 1,
                 name: "Buy new PC",
                 deadline: new DateTime(2023, 12, 24),
-                completed: true
+                completed: true,
+                priority: 2
                 ),
             new ToDo(
                 id: 2,
                 name: "Buy chocolate",
                 deadline: new DateTime(2024, 2, 14),
-                completed: true
+                completed: true,
+                priority: 3
                 )
         ];
 
