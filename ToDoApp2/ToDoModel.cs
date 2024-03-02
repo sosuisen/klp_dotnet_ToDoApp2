@@ -30,6 +30,7 @@ namespace ToDoApp2
         public void UpdateName(ToDo todo, string name) => Debug.WriteLine($"Name has been updated to {name} in ToDo#{todo.Id}");
         public void UpdateDeadline(ToDo todo, DateTime deadline) => Debug.WriteLine($"Deadline has been updated to {deadline} in ToDo#{todo.Id}");
         public void UpdateCompleted(ToDo todo, bool completed) => Debug.WriteLine($"Completed has been updated to {completed} in ToDo#{todo.Id}");
+        public void UpdatePriority(ToDo todo, int priority) => Debug.WriteLine($"Priority has been updated to {priority} in ToDo#{todo.Id}");
         public void Add(ToDo todo) => Debug.WriteLine($"ToDo#{todo.Id} has been added");
         public void Delete(ToDo todo) => Debug.WriteLine($"ToDo#{todo.Id} has been deleted");
     }
